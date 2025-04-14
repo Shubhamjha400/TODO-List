@@ -1,12 +1,29 @@
-# React + Vite
+# To-Do List using React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a To-Do List application built using React.js. It allows users to add, edit, mark tasks as completed, and delete tasks. The app is designed to be simple and intuitive, helping users manage their tasks effectively.
 
-Currently, two official plugins are available:
+## Live Demo: https://todo-list-notes-app.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+▫ Add Task: Users can add new tasks to their to-do list.
 
-## Expanding the ESLint configuration
+▫ Mark as Completed: Tasks can be marked as completed or pending.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+▫ Delete Task: Users can delete tasks they no longer need.
+
+▫ Edit Task: Allows users to edit tasks directly within the list.
+
+▫ Filter Tasks: Tasks can be filtered by completed or pending status.
+
+▫ Responsive Design: The app is responsive and works well on mobile, tablet, and desktop devices.
+
+▫ Persistent Data: Optionally, the app can store tasks locally in the browser (using LocalStorage or Context API).
+
+## Technologies Used
+▫ React.js: JavaScript library for building user interfaces.
+
+▫ React Hooks: useState, useEffect, and custom hooks for managing state and lifecycle.
+
+▫ CSS: For styling and creating a clean user interface.
+
+▫ React Icons: To add icons for task actions (e.g., checkmark for completion, trash for deletion).
